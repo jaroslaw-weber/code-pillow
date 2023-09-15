@@ -2,6 +2,8 @@
 
 alternative layout with focus on coding comfort &amp; ergonomics
 
+(generated with butterkeys at https://jaroslaw-weber.github.io/butterkeys/ )
+
 ![preview](preview.png)
 
 
