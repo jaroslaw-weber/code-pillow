@@ -17,7 +17,7 @@ https://github.com/Apsu/Canary
 
 coding requires using symbols quite often. but most of the time we need only one symbol.
 
-OSL (1) means that we switch to symbol layer for one keypress only.
+press thumb key to switch to symbol layer for one keypress only.
 
 this key is very easy accessible (under the thumb).
 
@@ -25,31 +25,37 @@ symbols are optimized for node js + typescript but can be swapped around if diff
 
 ## number layer
 
-separate layer for numbers. number order is optimized for programming (0 and 1 are most used) but also arranged in logical order.
+hold thumb key to type numbers.
+
+separate layer for numbers. number order is optimized for programming (0 and 1 are most used) but also arranged in logical order (even numbers on the right, odd numbers on the left).
 
 ## nav layer (navigation)
 
-layer for controlling navigation (mouse and keyboard).
-dont need to ever move your hands from the home row position.
-keys are arranged in logical order.
+layer for controlling navigation.
+also a lot of shortcuts that are useful while using mouse with right hand
 
-## tab and space placement
+## space
 
-tab and space are used quite often in programming. tab especially is used even more this days with rise of ai autocomplete. those are under thumbs for easy access.
+easy to access under the thumb
 
-## enter
+## magic shift
 
-close enough to easily use it, also similar position to most keyboards so easier to remember.
+press once - will only apply to next key press (easy capitalization)
+hold down - write in uppercase
+
+## enter and tab
+
+easy to reach combos on base layer
 
 ## backspace
 
 we are humans, we make mistakes. good to have in nice place (left pinky)
 
-## one shot modifiers (OSM)
+## home row mods (without shift)
 
-shift, alt, ctrl, cmd - those are often used with combination with one other key. press once (dont hold) for more comfort.
+it's so much more comfortable! remember to use 'mod interrupt' to make typing more smooth.
+shift can be tricky so not in home row.
 
-## qwerty layout
+## vscode layer (ongoing experiment)
 
-emergency layout in case you want to switch to something resembling the default layout. all keys are in positions that are as close as possible to traditional layout.
-
+hold down thumb to activate vscode focused layer (start, restart, etc)
