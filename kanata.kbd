@@ -1,0 +1,49 @@
+(defsrc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rmet rctl
+)
+
+
+
+(defalias
+  excl S-1
+  que S-/
+  monkey S-2
+  hash S-3
+  dollar S-4
+  percent S-5
+  tick S-6
+  and S-7
+  or S-\
+  star S-8
+  p1o S-9
+  p1c S-0
+  p2o S-[
+  p2c S-]
+  p3o S-,
+  p3c S-.
+  quo S-'
+  colon S-;
+  plus S-=
+  unders S--
+  sym (one-shot 3000 (layer-toggle symbols))
+)
+
+(deflayer canary
+  grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  tab  w    l    y    p    k    z    x    o    u    l    /    =    \
+  caps c    r    s    t    b    f    n    e    i    a    @sym    ret
+  lsft j    v    d    g    q    m    h    .    ,    ,    rsft
+  lctl lmet lalt           spc            ralt rmet rctl
+)
+
+(deflayer symbols
+  grv  1    2    3    4    5    6    7    8    9    0    [    ]    bspc
+  tab  ]    @p3c    @p2c    @p1c    @and    @or    @quo    '    `    l    /    =    \
+  caps [    @p3o    @p2o    @p1o    =    @monkey    ;    @colon    @que    @excl    -    ret
+  lsft @star    /    -    @plus    q    @percent    @dollar    @hash    @unders    ,    rsft
+  lctl lmet lalt           spc            ralt rmet rctl
+)
